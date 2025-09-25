@@ -1,4 +1,9 @@
 /*importare foto*/
+import facebookIcon from '../assets/img/footer-facebook.png';
+import twitterIcon from '../assets/img/footer-twitter.png';
+import youtubeIcon from '../assets/img/footer-youtube.png';
+import pinterestIcon from '../assets/img/footer-pinterest.png';
+import periscopeIcon from '../assets/img/footer-periscope.png';
 
 export default function Footer() {
   return (
@@ -60,11 +65,11 @@ export default function Footer() {
           <div className="social-links">
             <h3>FOLLOW US</h3>
             <ul>
-              <li><a href="#"><img src={} alt="Facebook" /></a></li>
-              <li><a href="#"><img src={} alt="Twitter" /></a></li>
-              <li><a href="#"><img src={} alt="YouTube" /></a></li>
-              <li><a href="#"><img src={} alt="Pinterest" /></a></li>
-              <li><a href="#"><img src={} alt="Periscope" /></a></li>
+              <li><a href="#"><img src={facebookIcon} alt="Facebook" /></a></li>
+              <li><a href="#"><img src={twitterIcon} alt="Twitter" /></a></li>
+              <li><a href="#"><img src={youtubeIcon} alt="YouTube" /></a></li>
+              <li><a href="#"><img src={pinterestIcon} alt="Pinterest" /></a></li>
+              <li><a href="#"><img src={periscopeIcon} alt="Periscope" /></a></li>
             </ul>
           </div>
         </div>
