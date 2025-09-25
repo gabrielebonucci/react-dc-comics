@@ -39,3 +39,30 @@ header nav ul{
   display: flex;
   gap: 1.5rem;
 }
+
+/*Banner servizi*/
+
+.services-banner{
+  background-color: #0282f9;
+  padding: 3rem 0;
+}
+
+.services-banner ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.services-banner li{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.services-banner span{
+  color: white;
+}
+.services-banner img{
+  height: 50px;
+}

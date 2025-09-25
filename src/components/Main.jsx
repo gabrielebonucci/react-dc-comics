@@ -7,18 +7,18 @@ import power from '../assets/img/buy-dc-power-visa.svg';
 export default function Main() { 
     return (
     <main>
-        <div>
-            <h1>products</h1>
-        </div>
-        <div>
+    <div className='jumbotronProducts'>
+        <div className='services-banner'>
             <ul>
-                <li> <span>DIGITAL COMICS</span> <img src={digComics} alt="Digital comics" /> </li>
-                <li> <span>DC MERCHANDISE</span>   <img src={merchandise} alt="merchandise" /> </li>
-                <li> <span>SUBSCRITION</span>  <img src={subscription} alt="subscription" /> </li>
-                <li> <span>COMIC SHOP LOCATOR</span> <img src={locationShop} alt="locationShop" /></li>
-                <li> <span>DC POWER VISA</span> <img src={power} alt="power" /></li>
+                <li> <img src={digComics} alt="Digital comics" /> <span>DIGITAL COMICS</span>  </li>
+                <li>  <img src={merchandise} alt="merchandise" />  <span>DC MERCHANDISE</span>  </li>
+                <li> <img src={subscription} alt="subscription" /> <span>SUBSCRITION</span>   </li>
+                <li> <img src={locationShop} alt="locationShop" /> <span>COMIC SHOP LOCATOR</span> </li>
+                <li> <img src={power} alt="power" /> <span>DC POWER VISA</span> </li>
             </ul>
         </div>
+     </div>
+
     </main>
 ); 
 }
