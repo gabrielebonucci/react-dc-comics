@@ -18,7 +18,9 @@ export default function Main() {
                         />
                     ))}
                 </div>
+                <div className="button-container">
                 <button className="load-more-btn">Load More</button>
+                </div>
             </div>
         </div>
     </main>
