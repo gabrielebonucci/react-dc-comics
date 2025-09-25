@@ -66,3 +66,11 @@ header nav ul{
 .services-banner img{
   height: 50px;
 }
+
+.jumbotron{
+  background-color: #1c1c1c;
+  color: white;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
