@@ -137,6 +137,7 @@ header nav ul{
 /*cards*/
 .content-section{
   background-color: #1c1c1c;
+  position: relative;
 }
 .series-label{
   background-color: #0282f9;
@@ -145,6 +146,9 @@ header nav ul{
   text-transform: uppercase;
   font-weight: 600;
   display: inline-block;
+  position: absolute;
+  top: 0;
+  transform: translateY(-50%);
 }
 
 .comics-grid{
@@ -174,7 +178,7 @@ header nav ul{
   font-size: 0.7rem;
 }
 
-/*load more button*/
+/*buttons*/
 
 .button-container{
   display: flex;
@@ -191,3 +195,13 @@ header nav ul{
   padding: 0.5rem 2rem;
 
 }
+
+.signup-button{
+ background-color: #303030;
+ color: white;
+ text-transform: uppercase;
+ font-weight: bold;
+ cursor: pointer;
+ padding: 0.7rem 1.2rem;
+ border: 2px solid #0282f9;
+;}

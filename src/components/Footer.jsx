@@ -59,9 +59,7 @@ export default function Footer() {
       </div>
       <div className="footer-bottom">
         <div className="container">
-          <div className="signup-button">
-            <button>SIGN-UP NOW!</button>
-          </div>
+          <button className="signup-button">SIGN-UP NOW!</button>          
           <div className="social-links">
             <h3>FOLLOW US</h3>
             <ul>
