@@ -4,6 +4,8 @@ import twitterIcon from '../assets/img/footer-twitter.png';
 import youtubeIcon from '../assets/img/footer-youtube.png';
 import pinterestIcon from '../assets/img/footer-pinterest.png';
 import periscopeIcon from '../assets/img/footer-periscope.png';
+import dcLogoBg from '../assets/img/dc-logo-bg.png';
+
 
 export default function Footer() {
   return (
@@ -56,6 +58,9 @@ export default function Footer() {
             </div>
           </div>
         </div>
+          <div className="footer-logo-bg">
+            <img src={dcLogoBg} alt="DC Logo Background" />
+    </div>
       </div>
       <div className="footer-bottom">
         <div className="container">

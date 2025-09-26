@@ -77,11 +77,26 @@ header nav ul{
 }
 
 /*footer*/
+
+.footer-top .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;}
+
+.footer-logo-bg {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%) translateX(-20%);
+}
+
 .footer-top {
   background-image: url('./assets/img/footer-bg.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   padding: 4rem 0;
+  position: relative; 
+  overflow: hidden;
 
 }
 
